@@ -1,67 +1,77 @@
-readme:
-  title: "📰 Smart News Portal – React + TypeScript + Tailwind"
-  live_demo: "https://tourmaline-cranachan-eb2f78.netlify.app"
-  description: >
-    A sleek, responsive web app designed to manage and display dynamic news, event announcements, and articles for an institution or organization.
-    Built with React, TypeScript, Vite, and Tailwind CSS.
+# 📰 Smart News Portal – React + TypeScript + Tailwind
 
-  features:
-    - "⚡ Fast & modern setup with Vite"
-    - "💅 Responsive UI using Tailwind CSS"
-    - "💼 Admin Dashboard with content forms"
-    - "📰 Dynamic display of news and articles"
-    - "📄 Export data to Excel"
-    - "🔐 Context-based state management"
-    - "🧠 Clean folder structure and TypeScript support"
+🔗 **Live Demo:** [https://tourmaline-cranachan-eb2f78.netlify.app](https://tourmaline-cranachan-eb2f78.netlify.app)
 
-  tech_stack:
-    React: "UI Framework"
-    TypeScript: "Static typing"
-    Tailwind CSS: "Styling"
-    Vite: "Build tool / dev server"
-    Context API: "State Management"
-    ExcelJS/XLSX: "Data export utilities"
+A modern, responsive news web app built using **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. It supports dynamic content like articles, events, and announcements, ideal for institutional or organizational use.
 
-  folder_structure: |
-    src/
-    ├── components/         # Reusable UI components
-    │   └── forms/          # Admin input forms
-    ├── context/            # App-wide state
-    ├── data/               # Mock news/events/articles
-    ├── pages/              # Page-level components
-    ├── utils/              # Excel export and helpers
-    ├── App.tsx             # App entry
-    ├── main.tsx            # Root render
+---
 
-  pages:
-    - "/ → Home Page"
-    - "/about → About Page"
-    - "/contact → Contact Page"
-    - "/login → Admin Login"
-    - "/dashboard → Admin Dashboard"
-    - "/news → News listing"
-    - "/article/:id → Article details"
+## 🚀 Features
 
-  installation:
-    - "git clone https://github.com/your-username/your-repo.git"
-    - "cd your-repo"
-    - "npm install"
-    - "npm run dev"
+- ⚡ Superfast performance with **Vite**
+- 📱 Fully responsive and mobile-friendly UI
+- 🎨 Beautifully styled using **Tailwind CSS**
+- 🧩 Modular React components with **TypeScript**
+- 🧠 Context API-based global state management
+- 🗂️ Pages: Home, About, News, Contact, Login, Admin Dashboard
+- ✍️ Admin forms for adding articles, events, exam schedules
+- 📤 Excel export functionality
+- 🛠️ Organized codebase with reusable utilities
 
-  export_excel:
-    - "src/utils/excelExport.ts"
+---
 
-  screenshots: "_Add interface screenshots here_"
+## 📂 Project Structure
+src/
+- ├── components/ # Reusable UI components
+- │ └── forms/ # Admin input forms
+- ├── context/ # Global state
+- ├── data/ # Static mock data
+- ├── pages/ # All page views
+- ├── types/ # Custom TypeScript types
+- ├── utils/ # Helper functions (e.g., Excel export)
+- ├── App.tsx # App root component
+- ├── main.tsx # App entry poin
 
-  license: "MIT License"
 
-  contributing: >
-    PRs are welcome! Open issues or feature requests for collaboration.
 
-  deployment:
-    platform: "Netlify"
-    url: "https://tourmaline-cranachan-eb2f78.netlify.app"
+---
 
-  author:
-    name: "Prafulla Purohit"
-    github: "https://github.com/prafulla2121"
+## 📦 Tech Stack
+
+| Technology     | Purpose                    |
+|----------------|----------------------------|
+| React          | UI development             |
+| TypeScript     | Type safety                |
+| Tailwind CSS   | Utility-first styling      |
+| Vite           | Fast dev & build tool      |
+| Context API    | State management           |
+| ExcelJS/XLSX   | Exporting data to Excel    |
+
+---
+
+## 🖥️ Pages Overview
+
+- `/` – Home Page
+- `/about` – About Us
+- `/contact` – Contact Page
+- `/login` – Admin Login
+- `/dashboard` – Admin Dashboard
+- `/news` – News Listing
+- `/article/:id` – Article Details Page
+
+---
+
+## 🔧 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/your-repo.git
+
+# Move into the project directory
+cd your-repo
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
